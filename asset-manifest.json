@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/playment-frontend/static/css/main.955cedc3.chunk.css",
+    "main.js": "/playment-frontend/static/js/main.6a66e41c.chunk.js",
+    "main.js.map": "/playment-frontend/static/js/main.6a66e41c.chunk.js.map",
+    "runtime-main.js": "/playment-frontend/static/js/runtime-main.ba74fe58.js",
+    "runtime-main.js.map": "/playment-frontend/static/js/runtime-main.ba74fe58.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/playment-frontend/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6bec80e9.chunk.js": "/playment-frontend/static/js/2.6bec80e9.chunk.js",
+    "static/js/2.6bec80e9.chunk.js.map": "/playment-frontend/static/js/2.6bec80e9.chunk.js.map",
+    "static/js/3.29d6b045.chunk.js": "/playment-frontend/static/js/3.29d6b045.chunk.js",
+    "static/js/3.29d6b045.chunk.js.map": "/playment-frontend/static/js/3.29d6b045.chunk.js.map",
+    "index.html": "/playment-frontend/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/playment-frontend/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.955cedc3.chunk.css.map": "/playment-frontend/static/css/main.955cedc3.chunk.css.map",
+    "static/js/2.6bec80e9.chunk.js.LICENSE.txt": "/playment-frontend/static/js/2.6bec80e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba74fe58.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6bec80e9.chunk.js",
+    "static/css/main.955cedc3.chunk.css",
+    "static/js/main.6a66e41c.chunk.js"
+  ]
+}
