@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Frontend Editor | Playment Frontend Developer Hiring Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Develop a pseudo Front End Editor in React or Vue (Vanilla or Angular not allowed) which
+would let the users code on the left and output the result on the right. This will be a
+HTML, CSS, JS Editor
 
-## Available Scripts
+## How to run the project online
 
-In the project directory, you can run:
+Open the online demo [here](https://manish-dalal.github.io/playment-frontend)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Embed ACE Editor on the left part of the screen.
+- Display an IFrame on the right part of the screen.
+- Implement a Run button clicking which the HTML, CSS, JS code on the left (user submitted code in the Editor) gets executed a similar to a browser in
+  the IFrame on the right.
+- Implement proper error handling. There must be no frame distortion/mirroring.
+- Responsive for Mobile Screens. Editor on top, IFrame on the bottom.
+- A feature to Save the Code written in a file called ‘download.txt'.
+- Implement a Dark Mode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## GUIDE
 
-### `yarn test`
+- W3Schools Try it Editor - https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_default
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <b>Note</b>: Implement an Editor similar to this.
 
-### `yarn build`
+## How to run the project in Development Mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project uses [Node.js >= 6.x](https://nodejs.org/en/) and the [Create-React-App starter code](https://github.com/facebookincubator/create-react-app).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After Node is installed in your system, follow the below steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Navigate to the directory where you want to store the app.
+2. Clone the repo `git clone https://github.com/manish-dalal/playment-frontend.git`
+3. Now install all modules listed as dependencies in `package.json` by running the command `npm install`
+4. Launch the app with this command `npm start`
 
-### `yarn eject`
+A new browser window open automatically displaying the app. If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**_NOTE:_** _The service workers for this app will only cache the site when it is in production mode._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to run the project in Production Mode
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Build the production ready optimised code. `npm run build`
+2. Deploy it to `gh-pages` branch by `npm run deploy`
+3. Check the online demo [here](https://manish-dalal.github.io/playment-frontend)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+Project Home Page
+<img src="screenshots/1.png"></img>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Light mode
+<img src="screenshots/2.png"></img>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dark mode
+<img src="screenshots/3.png"></img>
